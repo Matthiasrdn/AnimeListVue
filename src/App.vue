@@ -1,30 +1,33 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
   <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <h1>Mes animés</h1>
+
+    <input v-model="newAnime" placeholder="Ajouter un animé" />
+    <button @click="addAnime">Ajouter</button>
+
+    <ul>
+      <li v-for="anime in animes" :key="anime">
+        {{ anime }}
+        <button @click="animes = animes.filter(a => a !== anime)">X</button>
+      </li>
+    </ul>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<script setup>
+import { ref } from "vue"
+
+const animes = ref([
+  "Naruto",
+  "One Piece",
+  "Attack on Titan"
+])
+
+const newAnime = ref("")
+
+function addAnime() {
+  if (newAnime.value.trim() === "") return
+  animes.value.push(newAnime.value)
+  newAnime.value = ""
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+</script>
