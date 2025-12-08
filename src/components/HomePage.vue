@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Bienvenue</h1>
+    <h1>AniShelf</h1>
     <button @click="$router.push('/animes')">
       Entrer dans l'application
     </button>
