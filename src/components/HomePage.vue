@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>AniShelf</h1>
-    <button @click="$router.push('/animes')">
+    <button @click="$router.push('/catalog')">
       Entrer dans l'application
     </button>
   </div>

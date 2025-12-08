@@ -1,78 +1,45 @@
 <template>
-  <div class="app">
-    <h1>Mes animés</h1>
-
-    <div class="form">
-      <input v-model="newTitle" placeholder="Titre de l'animé" />
-      <input
-        type="number"
-        v-model.number="newRating"
-        min="0"
-        max="10"
-        placeholder="Note /10"
-      />
-      <button @click="addAnime">Ajouter</button>
-    </div>
+  <div class="page">
+    <h1>Catalogue d'animés</h1>
 
     <div class="cards">
       <div
-        v-for="(anime, index) in animes"
-        :key="index"
+        v-for="anime in catalog"
+        :key="anime.id"
         class="card"
       >
         <h2>{{ anime.title }}</h2>
         <p class="rating">{{ anime.rating }} / 10</p>
-        <button class="delete-btn" @click="removeAnime(index)">
-          Supprimer
-        </button>
+        <p class="description">
+          {{ anime.description }}
+        </p>
+
+        <div class="actions">
+          <button @click="addToList(anime)">Ajouter à ma liste</button>
+          <button @click="goToDetail(anime.id)">Voir la fiche</button>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+import { useAnimeStore } from '../store/animeStore'
+import type { Anime } from '../data/animeCatalog'
 
-interface Anime {
-  title: string
-  rating: number
-}
+const router = useRouter()
+const { catalog, addToList } = useAnimeStore()
 
-const animes = ref<Anime[]>([
-  { title: 'Naruto', rating: 8 },
-  { title: 'One Piece', rating: 10 },
-  { title: 'Attack on Titan', rating: 9 }
-])
-
-const newTitle = ref('')
-const newRating = ref<number | null>(5)
-
-function addAnime() {
-  if (!newTitle.value.trim()) return
-
-  animes.value.push({
-    title: newTitle.value,
-    rating: newRating.value ?? 0
-  })
-
-  newTitle.value = ''
-  newRating.value = 5
-}
-
-function removeAnime(index: number) {
-  animes.value.splice(index, 1)
+function goToDetail(id: number) {
+  router.push(`/animes/${id}`)
 }
 </script>
 
 <style scoped>
-.app {
-  font-family: system-ui, sans-serif;
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 24px;
-  background: #181818;
-  border-radius: 16px;
-  color: #f5f5f5;
+.page {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -80,58 +47,51 @@ h1 {
   margin-bottom: 20px;
 }
 
-.form {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 20px;
-}
-
-.form input {
-  flex: 1;
-  padding: 6px 8px;
-  border-radius: 6px;
-  border: none;
-  background: #262626;
-  color: #f5f5f5;
-}
-
-.form button {
-  padding: 6px 12px;
-  border-radius: 6px;
-  border: none;
-  background: #22c55e;
-  color: #111;
-  font-weight: 600;
-  cursor: pointer;
-}
-
 .cards {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 16px;
 }
 
 .card {
   background: #ffffff;
-  border-radius: 16px;
-  padding: 16px;
-  text-align: center;
   color: #111;
+  border-radius: 10px;
+  padding: 12px;
 }
 
 .rating {
   color: #e67e22;
   font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.description {
+  font-size: 0.9rem;
   margin-bottom: 10px;
 }
 
-.delete-btn {
-  background: #e74c3c;
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 6px 10px;
+  border-radius: 6px;
   border: none;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 0.85rem;
   cursor: pointer;
+  font-size: 0.85rem;
+}
+
+button:first-child {
+  background: #22c55e;
+  color: #111;
+}
+
+button:last-child {
+  background: #2563eb;
+  color: #fff;
 }
 </style>
