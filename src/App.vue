@@ -12,6 +12,8 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav>
         <RouterLink to="/catalog">Catalogue</RouterLink>
         <RouterLink to="/my-list">Ma liste</RouterLink>
+        <RouterLink to="/quiz">Quiz</RouterLink>
+
       </nav>
     </header>
 
