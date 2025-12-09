@@ -1,15 +1,101 @@
 import narutoImg from '../assets/anime/naruto.jpg'
 import onePieceImg from '../assets/anime/one-piece.jpg'
-import aotImg from '../assets/anime/aot.jpg'
+import aotImg from '../assets/anime/attack-on-titan.jpg'
 import demonSlayerImg from '../assets/anime/demon-slayer.jpg'
-import jjkImg from '../assets/anime/jjk.jpg'
-import mhaImg from '../assets/anime/mha.jpg'
-import fmaImg from '../assets/anime/fma.jpg'
+import jjkImg from '../assets/anime/jujutsu-kaisen.jpg'
+import mhaImg from '../assets/anime/my-hero-academia.jpg'
+import fmaImg from '../assets/anime/fullmetal-alchemist-brotherhood.jpg'
 import deathNoteImg from '../assets/anime/death-note.jpg'
-import hxhImg from '../assets/anime/hxh.jpg'
+import hxhImg from '../assets/anime/hunter-x-hunter.jpg'
 import haikyuuImg from '../assets/anime/haikyuu.jpg'
 import tokyoGhoulImg from '../assets/anime/tokyo-ghoul.jpg'
-import saoImg from '../assets/anime/sao.jpg'
+import saoImg from '../assets/anime/sword-art-online.jpg'
+import bleachImg from '../assets/anime/bleach.jpg'
+import dragonBallZImg from '../assets/anime/dragon-ball-z.jpg'
+import vinlandSagaImg from '../assets/anime/vinland-saga.jpg'
+import mobPsycho100Img from '../assets/anime/mob-psycho-100.jpg'
+import steinsGateImg from '../assets/anime/steins-gate.jpg'
+import codeGeassImg from '../assets/anime/code-geass.jpg'
+import berserk1997Img from '../assets/anime/berserk-1997.jpg'
+import reZeroImg from '../assets/anime/re-zero.jpg'
+import konosubaImg from '../assets/anime/konosuba.jpg'
+import blackCloverImg from '../assets/anime/black-clover.jpg'
+import fairyTailImg from '../assets/anime/fairy-tail.jpg'
+import blueExorcistImg from '../assets/anime/blue-exorcist.jpg'
+import toradoraImg from '../assets/anime/toradora.jpg'
+import clannadAfterStoryImg from '../assets/anime/clannad-after-story.jpg'
+import yourLieInAprilImg from '../assets/anime/your-lie-in-april.jpg'
+import psychoPassImg from '../assets/anime/psycho-pass.jpg'
+import erasedImg from '../assets/anime/erased.jpg'
+import blueLockImg from '../assets/anime/blue-lock.jpg'
+import chainsawManImg from '../assets/anime/chainsaw-man.jpg'
+import madeInAbyssImg from '../assets/anime/made-in-abyss.jpg'
+import overlordImg from '../assets/anime/overlord.jpg'
+import noGameNoLifeImg from '../assets/anime/no-game-no-life.jpg'
+import parasyteImg from '../assets/anime/parasyte.jpg'
+import durararaImg from '../assets/anime/durarara.jpg'
+import gurrenLagannImg from '../assets/anime/gurren-lagann.jpg'
+import neonGenesisEvangelionImg from '../assets/anime/neon-genesis-evangelion.jpg'
+import cowboyBebopImg from '../assets/anime/cowboy-bebop.jpg'
+import samuraiChamplooImg from '../assets/anime/samurai-champloo.jpg'
+import trigunImg from '../assets/anime/trigun.jpg'
+import hellsingUltimateImg from '../assets/anime/hellsing-ultimate.jpg'
+import akameGaKillImg from '../assets/anime/akame-ga-kill.jpg'
+import kabaneriIronFortressImg from '../assets/anime/kabaneri-of-the-iron-fortress.jpg'
+import bungoStrayDogsImg from '../assets/anime/bungo-stray-dogs.jpg'
+import noragamiImg from '../assets/anime/noragami.jpg'
+import risingOfShieldHeroImg from '../assets/anime/the-rising-of-the-shield-hero.jpg'
+import slimeImg from '../assets/anime/that-time-i-got-reincarnated-as-a-slime.jpg'
+import sevenDeadlySinsImg from '../assets/anime/the-seven-deadly-sins.jpg'
+import fireForceImg from '../assets/anime/fire-force.jpg'
+import drStoneImg from '../assets/anime/dr-stone.jpg'
+import foodWarsImg from '../assets/anime/food-wars.jpg'
+import bunnyGirlSenpaiImg from '../assets/anime/rascal-does-not-dream-of-bunny-girl-senpai.jpg'
+import horimiyaImg from '../assets/anime/horimiya.jpg'
+import oshiNoKoImg from '../assets/anime/oshi-no-ko.jpg'
+import spyXFamilyImg from '../assets/anime/spy-x-family.jpg'
+import rankingOfKingsImg from '../assets/anime/ranking-of-kings.jpg'
+import aSilentVoiceImg from '../assets/anime/a-silent-voice.jpg'
+import fiveCentimetersPerSecondImg from '../assets/anime/5-centimeters-per-second.jpg'
+import princessMononokeImg from '../assets/anime/princess-mononoke.jpg'
+import spiritedAwayImg from '../assets/anime/spirited-away.jpg'
+import nausicaaImg from '../assets/anime/nausicaa-of-the-valley-of-the-wind.jpg'
+import redlineImg from '../assets/anime/redline.jpg'
+import summerWarsImg from '../assets/anime/summer-wars.jpg'
+import boyAndHeronImg from '../assets/anime/the-boy-and-the-heron.jpg'
+import myNeighborTotoroImg from '../assets/anime/my-neighbor-totoro.jpg'
+import graveOfFirefliesImg from '../assets/anime/grave-of-the-fireflies.jpg'
+import ergoProxyImg from '../assets/anime/ergo-proxy.jpg'
+import texhnolyzeImg from '../assets/anime/texhnolyze.jpg'
+import paranoiaAgentImg from '../assets/anime/paranoia-agent.jpg'
+import wolfChildrenImg from '../assets/anime/wolf-children.jpg'
+import girlWhoLeaptThroughTimeImg from '../assets/anime/the-girl-who-leapt-through-time.jpg'
+import belleImg from '../assets/anime/belle.jpg'
+import aWhiskerAwayImg from '../assets/anime/a-whisker-away.jpg'
+import bubbleImg from '../assets/anime/bubble.jpg'
+import childrenOfTheSeaImg from '../assets/anime/children-of-the-sea.jpg'
+import violetEvergardenImg from '../assets/anime/violet-evergarden.jpg'
+import eightySixImg from '../assets/anime/86-eighty-six.jpg'
+import toYourEternityImg from '../assets/anime/to-your-eternity.jpg'
+import dorohedoroImg from '../assets/anime/dorohedoro.jpg'
+import ajinImg from '../assets/anime/ajin.jpg'
+import devilmanCrybabyImg from '../assets/anime/devilman-crybaby.jpg'
+import highSchoolOfTheDeadImg from '../assets/anime/high-school-of-the-dead.jpg'
+import terrorInResonanceImg from '../assets/anime/terror-in-resonance.jpg'
+import goldenKamuyImg from '../assets/anime/golden-kamuy.jpg'
+import moriartyPatriotImg from '../assets/anime/moriarty-the-patriot.jpg'
+import megaloBoxImg from '../assets/anime/megalo-box.jpg'
+import haibaneRenmeiImg from '../assets/anime/haibane-renmei.jpg'
+import fateZeroImg from '../assets/anime/fate-zero.jpg'
+import ubwImg from '../assets/anime/fate-stay-night-unlimited-blade-works.jpg'
+import gantzImg from '../assets/anime/gantz.jpg'
+import blackLagoonImg from '../assets/anime/black-lagoon.jpg'
+import bakiImg from '../assets/anime/baki.jpg'
+import yuriOnIceImg from '../assets/anime/yuri-on-ice.jpg'
+import freeImg from '../assets/anime/free.jpg'
+import pingPongAnimationImg from '../assets/anime/ping-pong-the-animation.jpg'
+import jojoImg from '../assets/anime/jojosBizarreAdventure.jpg'
+
 
 export interface Anime {
     id: number
@@ -35,7 +121,6 @@ export const animeCatalog: Anime[] = [
         title: 'Naruto',
         description: "Un ninja qui rêve de devenir Hokage et d'être reconnu par son village.",
         imageUrl: narutoImg,
-
         year: 2002,
         type: 'Série',
         episodes: 220,
@@ -52,7 +137,6 @@ export const animeCatalog: Anime[] = [
         title: 'One Piece',
         description: 'Luffy veut devenir Roi des pirates et trouver le One Piece.',
         imageUrl: onePieceImg,
-
         year: 1999,
         type: 'Série',
         episodes: null,
@@ -69,7 +153,6 @@ export const animeCatalog: Anime[] = [
         title: 'Attack on Titan',
         description: "L'humanité se bat contre des titans mangeurs d'hommes.",
         imageUrl: aotImg,
-
         year: 2013,
         type: 'Série',
         episodes: 87,
@@ -86,7 +169,6 @@ export const animeCatalog: Anime[] = [
         title: 'Demon Slayer',
         description: 'Tanjiro devient pourfendeur de démons pour sauver sa sœur.',
         imageUrl: demonSlayerImg,
-
         year: 2019,
         type: 'Série',
         episodes: null,
@@ -103,7 +185,6 @@ export const animeCatalog: Anime[] = [
         title: 'Jujutsu Kaisen',
         description: 'Itadori ingère un doigt maudit et rejoint les exorcistes de fléaux.',
         imageUrl: jjkImg,
-
         year: 2020,
         type: 'Série',
         episodes: null,
@@ -120,7 +201,6 @@ export const animeCatalog: Anime[] = [
         title: 'My Hero Academia',
         description: "Dans un monde de héros, Deku veut devenir le numéro 1 malgré sa naissance sans alter.",
         imageUrl: mhaImg,
-
         year: 2016,
         type: 'Série',
         episodes: null,
@@ -137,7 +217,6 @@ export const animeCatalog: Anime[] = [
         title: 'Fullmetal Alchemist: Brotherhood',
         description: 'Deux frères alchimistes cherchent la pierre philosophale après une transmutation ratée.',
         imageUrl: fmaImg,
-
         year: 2009,
         type: 'Série',
         episodes: 64,
@@ -154,7 +233,6 @@ export const animeCatalog: Anime[] = [
         title: 'Death Note',
         description: 'Light trouve un carnet qui permet de tuer en écrivant le nom des gens.',
         imageUrl: deathNoteImg,
-
         year: 2006,
         type: 'Série',
         episodes: 37,
@@ -171,7 +249,6 @@ export const animeCatalog: Anime[] = [
         title: 'Hunter x Hunter',
         description: 'Gon souhaite devenir Hunter et retrouver son père.',
         imageUrl: hxhImg,
-
         year: 2011,
         type: 'Série',
         episodes: 148,
@@ -188,7 +265,6 @@ export const animeCatalog: Anime[] = [
         title: 'Haikyuu!!',
         description: 'Hinata rêve de devenir un grand joueur de volley malgré sa petite taille.',
         imageUrl: haikyuuImg,
-
         year: 2014,
         type: 'Série',
         episodes: null,
@@ -205,7 +281,6 @@ export const animeCatalog: Anime[] = [
         title: 'Tokyo Ghoul',
         description: 'Kaneki devient mi-humain mi-goule après une transplantation inattendue.',
         imageUrl: tokyoGhoulImg,
-
         year: 2014,
         type: 'Série',
         episodes: 24,
@@ -222,7 +297,6 @@ export const animeCatalog: Anime[] = [
         title: 'Sword Art Online',
         description: 'Des joueurs sont piégés dans un MMORPG mortel où la mort in-game est définitive.',
         imageUrl: saoImg,
-
         year: 2012,
         type: 'Série',
         episodes: null,
@@ -233,5 +307,1360 @@ export const animeCatalog: Anime[] = [
         origin: 'Light Novel',
         ageRating: '12+',
         durationPerEpisode: '24 min'
-    }
+    },
+    {
+        id: 13,
+        title: 'Bleach',
+        description: "Ichigo devient un Shinigami remplaçant et se retrouve plongé dans une guerre millénaire.",
+        imageUrl: bleachImg,
+        year: 2004,
+        type: 'Série',
+        episodes: 366,
+        status: 'Terminé',
+        genres: ['Action', 'Surnaturel'],
+        themes: ['Esprits', 'Épées', 'Hollow'],
+        studio: 'Studio Pierrot',
+        origin: 'Manga',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 14,
+        title: 'Dragon Ball Z',
+        description: "Goku défend la Terre contre de puissants ennemis venus de l’espace.",
+        imageUrl: dragonBallZImg,
+        year: 1989,
+        type: 'Série',
+        episodes: 291,
+        status: 'Terminé',
+        genres: ['Action', 'Arts martiaux'],
+        themes: ['Transformations', 'Combats', 'Famille'],
+        studio: 'Toei Animation',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 15,
+        title: 'Vinland Saga',
+        description: "Thorfinn cherche à venger son père dans une Europe médiévale brutale.",
+        imageUrl: vinlandSagaImg,
+        year: 2019,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Historique', 'Drame', 'Action'],
+        themes: ['Vikings', 'Vengeance', 'Guerre'],
+        studio: 'Wit Studio / MAPPA',
+        origin: 'Manga',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 16,
+        title: 'Mob Psycho 100',
+        description: "Un jeune médium surpuissant tente de vivre une vie normale malgré ses pouvoirs incontrôlables.",
+        imageUrl: mobPsycho100Img,
+        year: 2016,
+        type: 'Série',
+        episodes: 37,
+        status: 'Terminé',
+        genres: ['Action', 'Surnaturel'],
+        themes: ['Psycho', 'Humour', 'Amitié'],
+        studio: 'Bones',
+        origin: 'Manga',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 17,
+        title: 'Steins;Gate',
+        description: "Un groupe d’amis découvre une manière d’envoyer des messages dans le passé.",
+        imageUrl: steinsGateImg,
+        year: 2011,
+        type: 'Série',
+        episodes: 24,
+        status: 'Terminé',
+        genres: ['Science-fiction', 'Thriller'],
+        themes: ['Voyage temporel', 'Conspirations'],
+        studio: 'White Fox',
+        origin: 'Visual Novel',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 18,
+        title: 'Code Geass',
+        description: "Lelouch obtient le pouvoir du Geass et tente de renverser un empire oppressif.",
+        imageUrl: codeGeassImg,
+        year: 2006,
+        type: 'Série',
+        episodes: 50,
+        status: 'Terminé',
+        genres: ['Mecha', 'Action'],
+        themes: ['Rébellion', 'Pouvoirs', 'Stratégie'],
+        studio: 'Sunrise',
+        origin: 'Original',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 19,
+        title: 'Berserk (1997)',
+        description: "L’histoire sombre de Guts, mercenaire marqué par le destin.",
+        imageUrl: berserk1997Img,
+        year: 1997,
+        type: 'Série',
+        episodes: 25,
+        status: 'Terminé',
+        genres: ['Dark Fantasy', 'Drame'],
+        themes: ['Trahison', 'Guerre', 'Ambition'],
+        studio: 'OLM',
+        origin: 'Manga',
+        ageRating: '18+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 20,
+        title: 'Re:Zero',
+        description: "Subaru revit sans cesse sa mort et doit briser un cycle infernal.",
+        imageUrl: reZeroImg,
+        year: 2016,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Isekai', 'Drame', 'Psychologique'],
+        themes: ['Mort', 'Boucle temporelle'],
+        studio: 'White Fox',
+        origin: 'Light Novel',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 21,
+        title: 'Konosuba',
+        description: "Un adolescent se retrouve transporté dans un monde fantasy totalement absurde.",
+        imageUrl: konosubaImg,
+        year: 2016,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Comédie', 'Fantasy'],
+        themes: ['Isekai', 'Aventure'],
+        studio: 'Studio Deen',
+        origin: 'Light Novel',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 22,
+        title: 'Black Clover',
+        description: "Asta, né sans magie, cherche à devenir Empereur-Mage.",
+        imageUrl: blackCloverImg,
+        year: 2017,
+        type: 'Série',
+        episodes: 170,
+        status: 'Terminé',
+        genres: ['Action', 'Fantasy'],
+        themes: ['Magie', 'Rivalité'],
+        studio: 'Pierrot',
+        origin: 'Manga',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 23,
+        title: 'Fairy Tail',
+        description: "Natsu et sa guilde accomplissent des missions périlleuses dans un monde magique.",
+        imageUrl: fairyTailImg,
+        year: 2009,
+        type: 'Série',
+        episodes: 328,
+        status: 'Terminé',
+        genres: ['Action', 'Fantasy'],
+        themes: ['Amitié', 'Magie', 'Guildes'],
+        studio: 'A-1 Pictures',
+        origin: 'Manga',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 24,
+        title: 'Blue Exorcist',
+        description: "Rin découvre qu’il est le fils du démon Satan et devient exorciste.",
+        imageUrl: blueExorcistImg,
+        year: 2011,
+        type: 'Série',
+        episodes: 25,
+        status: 'Terminé',
+        genres: ['Action', 'Surnaturel'],
+        themes: ['Démons', 'École'],
+        studio: 'A-1 Pictures',
+        origin: 'Manga',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 25,
+        title: 'Toradora!',
+        description: "Deux lycéens terrifiants d’apparence s’entraident pour conquérir leurs crushs respectifs.",
+        imageUrl: toradoraImg,
+        year: 2008,
+        type: 'Série',
+        episodes: 25,
+        status: 'Terminé',
+        genres: ['Romance', 'Slice of Life'],
+        themes: ['Amitié', 'Amour'],
+        studio: 'J.C. Staff',
+        origin: 'Light Novel',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 26,
+        title: 'Clannad: After Story',
+        description: "Tomoya découvre les difficultés de la vie adulte et de la paternité.",
+        imageUrl: clannadAfterStoryImg,
+        year: 2008,
+        type: 'Série',
+        episodes: 24,
+        status: 'Terminé',
+        genres: ['Drame', 'Slice of Life'],
+        themes: ['Famille', 'Amour'],
+        studio: 'Kyoto Animation',
+        origin: 'Visual Novel',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 27,
+        title: 'Your Lie in April',
+        description: "Un pianiste prodige retrouve goût à la musique grâce à une violoniste lumineuse.",
+        imageUrl: yourLieInAprilImg,
+        year: 2014,
+        type: 'Série',
+        episodes: 22,
+        status: 'Terminé',
+        genres: ['Romance', 'Drame'],
+        themes: ['Musique', 'Trauma'],
+        studio: 'A-1 Pictures',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 28,
+        title: 'Psycho-Pass',
+        description: "Dans un futur dystopique, la criminalité est prédite par un système omniscient.",
+        imageUrl: psychoPassImg,
+        year: 2012,
+        type: 'Série',
+        episodes: 22,
+        status: 'Terminé',
+        genres: ['Sci-Fi', 'Thriller'],
+        themes: ['Justice', 'Liberté', 'Technologie'],
+        studio: 'Production I.G',
+        origin: 'Original',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 29,
+        title: 'Erased',
+        description: "Un mangaka retourne dans son passé pour empêcher des meurtres d'enfants.",
+        imageUrl: erasedImg,
+        year: 2016,
+        type: 'Série',
+        episodes: 12,
+        status: 'Terminé',
+        genres: ['Mystère', 'Thriller'],
+        themes: ['Voyage temporel', 'Enfance'],
+        studio: 'A-1 Pictures',
+        origin: 'Manga',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+
+    {
+        id: 31,
+        title: 'Blue Lock',
+        description: "300 attaquants rivalisent pour devenir le meilleur buteur du Japon.",
+        imageUrl: blueLockImg,
+        year: 2022,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Sport', 'Action'],
+        themes: ['Compétition', 'Football'],
+        studio: '8bit',
+        origin: 'Manga',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 32,
+        title: 'Chainsaw Man',
+        description: "Denji fusionne avec un démon tronçonneuse et devient chasseur de démons.",
+        imageUrl: chainsawManImg,
+        year: 2022,
+        type: 'Série',
+        episodes: 12,
+        status: 'En cours',
+        genres: ['Action', 'Horreur'],
+        themes: ['Démons', 'Violence'],
+        studio: 'MAPPA',
+        origin: 'Manga',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 33,
+        title: 'Made in Abyss',
+        description: "Riko et Reg descendent dans un abysse rempli de créatures étranges pour retrouver sa mère.",
+        imageUrl: madeInAbyssImg,
+        year: 2017,
+        type: 'Série',
+        episodes: 13,
+        status: 'En cours',
+        genres: ['Aventure', 'Dark Fantasy'],
+        themes: ['Exploration', 'Mystère'],
+        studio: 'Kinema Citrus',
+        origin: 'Manga',
+        ageRating: '16+',
+        durationPerEpisode: '25 min'
+    },
+    {
+        id: 34,
+        title: 'Overlord',
+        description: "Un joueur coincé dans son MMORPG devient souverain d’un royaume démoniaque.",
+        imageUrl: overlordImg,
+        year: 2015,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Isekai', 'Fantasy'],
+        themes: ['MMORPG', 'Pouvoir'],
+        studio: 'Madhouse',
+        origin: 'Light Novel',
+        ageRating: '15+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 35,
+        title: 'No Game No Life',
+        description: "Deux prodiges invincibles dans les jeux se retrouvent dans un monde où tout se décide par défi.",
+        imageUrl: noGameNoLifeImg,
+        year: 2014,
+        type: 'Série',
+        episodes: 12,
+        status: 'Terminé',
+        genres: ['Isekai', 'Fantasy'],
+        themes: ['Jeux', 'Stratégie'],
+        studio: 'Madhouse',
+        origin: 'Light Novel',
+        ageRating: '13+',
+        durationPerEpisode: '24 min'
+    },
+
+    {
+        id: 37,
+        title: 'Durarara!!',
+        description: "Ikebukuro est le théâtre de phénomènes étranges et de gangs surnaturels.",
+        imageUrl: durararaImg,
+        year: 2010,
+        type: 'Série',
+        episodes: 24,
+        status: 'Terminé',
+        genres: ['Action', 'Mystère'],
+        themes: ['Gangs', 'Urban Fantasy'],
+        studio: 'Brain’s Base',
+        origin: 'Light Novel',
+        ageRating: '13+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 38,
+        title: 'Gurren Lagann',
+        description: "Deux garçons sortent de leur village souterrain pour rejoindre la surface et se battre contre des tyrans.",
+        imageUrl: gurrenLagannImg,
+        year: 2007,
+        type: 'Série',
+        episodes: 27,
+        status: 'Terminé',
+        genres: ['Mecha', 'Aventure'],
+        themes: ['Courage', 'Rébellion'],
+        studio: 'Gainax',
+        origin: 'Original',
+        ageRating: '13+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 39,
+        title: 'Neon Genesis Evangelion',
+        description: "Des adolescents pilotent des mechas pour combattre des entités mystérieuses appelées Anges.",
+        imageUrl: neonGenesisEvangelionImg,
+        year: 1995,
+        type: 'Série',
+        episodes: 26,
+        status: 'Terminé',
+        genres: ['Mecha', 'Psychologique'],
+        themes: ['Dépression', 'Religion'],
+        studio: 'Gainax',
+        origin: 'Original',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 40,
+        title: 'Cowboy Bebop',
+        description: "Une équipe de chasseurs de primes parcourt l’espace dans un futur chaotique.",
+        imageUrl: cowboyBebopImg,
+        year: 1998,
+        type: 'Série',
+        episodes: 26,
+        status: 'Terminé',
+        genres: ['Action', 'Sci-Fi'],
+        themes: ['Espace', 'Solitude'],
+        studio: 'Sunrise',
+        origin: 'Original',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 41,
+        title: 'Samurai Champloo',
+        description: "Une jeune fille part à la recherche d’un samouraï avec l’aide de deux guerriers opposés.",
+        imageUrl: samuraiChamplooImg,
+        year: 2004,
+        type: 'Série',
+        episodes: 26,
+        status: 'Terminé',
+        genres: ['Action', 'Historique'],
+        themes: ['Samouraïs', 'Voyage'],
+        studio: 'Manglobe',
+        origin: 'Original',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 42,
+        title: 'Trigun',
+        description: "Vash the Stampede, pacifiste recherché, tente d’éviter le chaos qu’il attire.",
+        imageUrl: trigunImg,
+        year: 1998,
+        type: 'Série',
+        episodes: 26,
+        status: 'Terminé',
+        genres: ['Action', 'Western Sci-Fi'],
+        themes: ['Pacifisme', 'Fugitif'],
+        studio: 'Madhouse',
+        origin: 'Manga',
+        ageRating: '13+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 43,
+        title: 'Hellsing Ultimate',
+        description: "Alucard combat les vampires et forces surnaturelles menaçant l’Angleterre.",
+        imageUrl: hellsingUltimateImg,
+        year: 2006,
+        type: 'Série',
+        episodes: 10,
+        status: 'Terminé',
+        genres: ['Horreur', 'Action'],
+        themes: ['Vampires', 'Occulte'],
+        studio: 'Madhouse / Satelight',
+        origin: 'Manga',
+        ageRating: '18+',
+        durationPerEpisode: '50 min'
+    },
+    {
+        id: 44,
+        title: 'Akame ga Kill!',
+        description: "Un groupe d’assassins lutte contre un empire corrompu.",
+        imageUrl: akameGaKillImg,
+        year: 2014,
+        type: 'Série',
+        episodes: 24,
+        status: 'Terminé',
+        genres: ['Action', 'Dark Fantasy'],
+        themes: ['Guerre', 'Corruption'],
+        studio: 'White Fox',
+        origin: 'Manga',
+        ageRating: '15+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 45,
+        title: 'Kabaneri of the Iron Fortress',
+        description: "Un monde envahi par des zombies métalliques oblige l’humanité à vivre dans des trains fortifiés.",
+        imageUrl: kabaneriIronFortressImg,
+        year: 2016,
+        type: 'Série',
+        episodes: 12,
+        status: 'Terminé',
+        genres: ['Action', 'Horreur'],
+        themes: ['Zombies', 'Post-apo'],
+        studio: 'Wit Studio',
+        origin: 'Original',
+        ageRating: '15+',
+        durationPerEpisode: '23 min'
+    },
+    {
+        id: 46,
+        title: 'Bungo Stray Dogs',
+        description: "Des détectives dotés de pouvoirs surnaturels affrontent dangers et organisations rivales.",
+        imageUrl: bungoStrayDogsImg,
+        year: 2016,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Action', 'Mystère'],
+        themes: ['Pouvoirs', 'Détectives'],
+        studio: 'Bones',
+        origin: 'Manga',
+        ageRating: '13+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 47,
+        title: 'Noragami',
+        description: "Un dieu mineur tente de se faire connaître en réalisant des petits travaux pour les humains.",
+        imageUrl: noragamiImg,
+        year: 2014,
+        type: 'Série',
+        episodes: 25,
+        status: 'Terminé',
+        genres: ['Action', 'Surnaturel'],
+        themes: ['Dieux', 'Esprits'],
+        studio: 'Bones',
+        origin: 'Manga',
+        ageRating: '13+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 48,
+        title: 'The Rising of the Shield Hero',
+        description: "Naofumi devient le héros du bouclier dans un monde médiéval où tout le monde l'accuse à tort.",
+        imageUrl: risingOfShieldHeroImg,
+        year: 2019,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Isekai', 'Fantasy'],
+        themes: ['Trahison', 'Rédemption'],
+        studio: 'Kinema Citrus',
+        origin: 'Light Novel',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 49,
+        title: 'That Time I Got Reincarnated as a Slime',
+        description: "Un homme renaît en slime surpuissant et bâtit une nation de monstres.",
+        imageUrl: slimeImg,
+        year: 2018,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Isekai', 'Fantasy'],
+        themes: ['Royaume', 'Pouvoir'],
+        studio: '8bit',
+        origin: 'Light Novel',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 50,
+        title: 'The Seven Deadly Sins',
+        description: "Un groupe de chevaliers légendaires doit sauver le royaume de Britannia.",
+        imageUrl: sevenDeadlySinsImg,
+        year: 2014,
+        type: 'Série',
+        episodes: 100,
+        status: 'Terminé',
+        genres: ['Action', 'Fantasy'],
+        themes: ['Péchés', 'Magie'],
+        studio: 'A-1 Pictures',
+        origin: 'Manga',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 51,
+        title: 'Fire Force',
+        description: "Shinra rejoint une brigade combattant des humains enflammés.",
+        imageUrl: fireForceImg,
+        year: 2019,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Action'],
+        themes: ['Pompiers', 'Démons'],
+        studio: 'David Production',
+        origin: 'Manga',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 52,
+        title: 'Dr. Stone',
+        description: "Senku tente de reconstruire la civilisation grâce à la science.",
+        imageUrl: drStoneImg,
+        year: 2019,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Sci-Fi'],
+        themes: ['Science', 'Survie'],
+        studio: 'TMS Entertainment',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 53,
+        title: 'Food Wars!',
+        description: "Soma s’inscrit dans une académie culinaire impitoyable.",
+        imageUrl: foodWarsImg,
+        year: 2015,
+        type: 'Série',
+        episodes: 86,
+        status: 'Terminé',
+        genres: ['Comédie', 'Cuisine'],
+        themes: ['Compétition'],
+        studio: 'J.C. Staff',
+        origin: 'Manga',
+        ageRating: '13+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 54,
+        title: 'Rascal Does Not Dream of Bunny Girl Senpai',
+        description: "Une série d’anomalies frappe des adolescents victimes de phénomènes mystérieux.",
+        imageUrl: bunnyGirlSenpaiImg,
+        year: 2018,
+        type: 'Série',
+        episodes: 13,
+        status: 'Terminé',
+        genres: ['Romance', 'Slice of Life'],
+        themes: ['Syndrome'],
+        studio: 'CloverWorks',
+        origin: 'Light Novel',
+        ageRating: '13+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 55,
+        title: 'Horimiya',
+        description: "Deux lycéens découvre une facette cachée de l’autre.",
+        imageUrl: horimiyaImg,
+        year: 2021,
+        type: 'Série',
+        episodes: 26,
+        status: 'Terminé',
+        genres: ['Romance'],
+        themes: ['Identité'],
+        studio: 'CloverWorks',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 56,
+        title: 'Oshi no Ko',
+        description: "Deux enfants réincarnés dans le monde du show-business vivent une destinée tragique.",
+        imageUrl: oshiNoKoImg,
+        year: 2023,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Drame'],
+        themes: ['Célébrité'],
+        studio: 'Doga Kobo',
+        origin: 'Manga',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 57,
+        title: 'Spy x Family',
+        description: "Un espion doit former une famille factice pour réussir sa mission.",
+        imageUrl: spyXFamilyImg,
+        year: 2022,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Comédie', 'Action'],
+        themes: ['Famille'],
+        studio: 'Wit Studio / CloverWorks',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 58,
+        title: 'Ranking of Kings',
+        description: "Un prince sourd et faible souhaite devenir un roi respecté.",
+        imageUrl: rankingOfKingsImg,
+        year: 2021,
+        type: 'Série',
+        episodes: 23,
+        status: 'Terminé',
+        genres: ['Fantasy'],
+        themes: ['Courage'],
+        studio: 'Wit Studio',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+
+    {
+        id: 60,
+        title: 'A Silent Voice',
+        description: "Un ancien harceleur tente de se racheter auprès d’une fille sourde.",
+        imageUrl: aSilentVoiceImg,
+        year: 2016,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Drame'],
+        themes: ['Rédemption'],
+        studio: 'Kyoto Animation',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '130 min'
+    },
+
+
+    {
+        id: 66,
+        title: '5 Centimeters per Second',
+        description: "Deux amis d’enfance s’éloignent au fil des années.",
+        imageUrl: fiveCentimetersPerSecondImg,
+        year: 2007,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Romance'],
+        themes: ['Distance'],
+        studio: 'CoMix Wave',
+        origin: 'Original',
+        ageRating: '10+',
+        durationPerEpisode: '63 min'
+    },
+    {
+        id: 67,
+        title: "JoJo's Bizarre Adventure",
+        description: "La lignée Joestar affronte des ennemis surnaturels à travers différentes générations.",
+        imageUrl: jojoImg,
+        year: 2012,
+        type: "Série",
+        episodes: null,
+        status: "En cours",
+        genres: ["Action", "Surnaturel", "Aventure"],
+        themes: ["Famille", "Pouvoirs", "Batailles"],
+        studio: "David Production",
+        origin: "Manga",
+        ageRating: "15+",
+        durationPerEpisode: "24 min"
+    },
+
+    {
+        id: 68,
+        title: 'Princess Mononoke',
+        description: "Un jeune guerrier tente de stopper un conflit entre humains et esprits de la forêt.",
+        imageUrl: princessMononokeImg,
+        year: 1997,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Fantasy'],
+        themes: ['Nature'],
+        studio: 'Ghibli',
+        origin: 'Original',
+        ageRating: '12+',
+        durationPerEpisode: '134 min'
+    },
+    {
+        id: 69,
+        title: 'Spirited Away',
+        description: "Une fille doit sauver ses parents transformés en cochons.",
+        imageUrl: spiritedAwayImg,
+        year: 2001,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Fantasy'],
+        themes: ['Esprits'],
+        studio: 'Ghibli',
+        origin: 'Original',
+        ageRating: '7+',
+        durationPerEpisode: '125 min'
+    },
+    {
+        id: 70,
+        title: 'Nausicaä of the Valley of the Wind',
+        description: "Une princesse tente de sauver un monde pollué envahi par des insectes géants.",
+        imageUrl: nausicaaImg,
+        year: 1984,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Sci-Fi'],
+        themes: ['Nature'],
+        studio: 'Ghibli',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '117 min'
+    },
+    {
+        id: 71,
+        title: 'Redline',
+        description: "Une course intergalactique déjantée où tous les coups sont permis.",
+        imageUrl: redlineImg,
+        year: 2009,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Action'],
+        themes: ['Course'],
+        studio: 'Madhouse',
+        origin: 'Original',
+        ageRating: '14+',
+        durationPerEpisode: '102 min'
+    },
+    {
+        id: 72,
+        title: 'Summer Wars',
+        description: "Un lycéen tente de sauver un monde virtuel d’une IA malveillante.",
+        imageUrl: summerWarsImg,
+        year: 2009,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Sci-Fi'],
+        themes: ['Famille'],
+        studio: 'Madhouse',
+        origin: 'Original',
+        ageRating: '10+',
+        durationPerEpisode: '114 min'
+    },
+    {
+        id: 73,
+        title: 'The Boy and the Heron',
+        description: "Un jeune garçon explore un monde parallèle habité par des créatures étranges.",
+        imageUrl: boyAndHeronImg,
+        year: 2023,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Fantasy'],
+        themes: ['Deuil'],
+        studio: 'Ghibli',
+        origin: 'Original',
+        ageRating: '12+',
+        durationPerEpisode: '124 min'
+    },
+    {
+        id: 74,
+        title: 'My Neighbor Totoro',
+        description: "Deux sœurs rencontrent des esprits bienveillants dans la campagne japonaise.",
+        imageUrl: myNeighborTotoroImg,
+        year: 1988,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Fantasy'],
+        themes: ['Famille'],
+        studio: 'Ghibli',
+        origin: 'Original',
+        ageRating: '0+',
+        durationPerEpisode: '86 min'
+    },
+    {
+        id: 75,
+        title: 'Grave of the Fireflies',
+        description: "Deux enfants tentent de survivre à la guerre au Japon.",
+        imageUrl: graveOfFirefliesImg,
+        year: 1988,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Drame'],
+        themes: ['Guerre'],
+        studio: 'Ghibli',
+        origin: 'Novel',
+        ageRating: '12+',
+        durationPerEpisode: '89 min'
+    },
+    {
+        id: 76,
+        title: 'Ergo Proxy',
+        description: "Dans un monde futuriste, une enquête mène à un secret sur l’humanité.",
+        imageUrl: ergoProxyImg,
+        year: 2006,
+        type: 'Série',
+        episodes: 23,
+        status: 'Terminé',
+        genres: ['Sci-Fi'],
+        themes: ['Philosophie'],
+        studio: 'Manglobe',
+        origin: 'Original',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 77,
+        title: 'Texhnolyze',
+        description: "Underground dystopia où la survie passe par la cybernétique.",
+        imageUrl: texhnolyzeImg,
+        year: 2003,
+        type: 'Série',
+        episodes: 22,
+        status: 'Terminé',
+        genres: ['Sci-Fi'],
+        themes: ['Violence'],
+        studio: 'Madhouse',
+        origin: 'Original',
+        ageRating: '18+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 78,
+        title: 'Paranoia Agent',
+        description: "Un mystérieux garçon à rollers attaque des victimes dans Tokyo.",
+        imageUrl: paranoiaAgentImg,
+        year: 2004,
+        type: 'Série',
+        episodes: 13,
+        status: 'Terminé',
+        genres: ['Psychologique'],
+        themes: ['Société'],
+        studio: 'Madhouse',
+        origin: 'Original',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 79,
+        title: 'Wolf Children',
+        description: "Une mère élève seule deux enfants mi-loups.",
+        imageUrl: wolfChildrenImg,
+        year: 2012,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Drame'],
+        themes: ['Famille'],
+        studio: 'Studio Chizu',
+        origin: 'Original',
+        ageRating: '10+',
+        durationPerEpisode: '117 min'
+    },
+    {
+        id: 80,
+        title: 'The Girl Who Leapt Through Time',
+        description: "Makoto découvre qu’elle peut voyager dans le temps.",
+        imageUrl: girlWhoLeaptThroughTimeImg,
+        year: 2006,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Sci-Fi'],
+        themes: ['Temps'],
+        studio: 'Madhouse',
+        origin: 'Novel',
+        ageRating: '10+',
+        durationPerEpisode: '98 min'
+    },
+    {
+        id: 81,
+        title: 'Belle',
+        description: "Une jeune fille devient une star dans un monde virtuel.",
+        imageUrl: belleImg,
+        year: 2021,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Sci-Fi'],
+        themes: ['Virtualité'],
+        studio: 'Studio Chizu',
+        origin: 'Original',
+        ageRating: '10+',
+        durationPerEpisode: '121 min'
+    },
+    {
+        id: 82,
+        title: 'A Whisker Away',
+        description: "Une fille devient un chat pour s’approcher de son crush.",
+        imageUrl: aWhiskerAwayImg,
+        year: 2020,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Fantasy'],
+        themes: ['Identité'],
+        studio: 'Studio Colorido',
+        origin: 'Original',
+        ageRating: '10+',
+        durationPerEpisode: '104 min'
+    },
+    {
+        id: 83,
+        title: 'Bubble',
+        description: "Tokyo est transformé après l’apparition de bulles modifiant la gravité.",
+        imageUrl: bubbleImg,
+        year: 2022,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Sci-Fi'],
+        themes: ['Désolation'],
+        studio: 'Wit Studio',
+        origin: 'Original',
+        ageRating: '12+',
+        durationPerEpisode: '100 min'
+    },
+    {
+        id: 84,
+        title: 'Children of the Sea',
+        description: "Des enfants liés à l’océan déclenchent un événement cosmique.",
+        imageUrl: childrenOfTheSeaImg,
+        year: 2019,
+        type: 'Film',
+        episodes: null,
+        status: 'Terminé',
+        genres: ['Drama'],
+        themes: ['Nature'],
+        studio: 'Studio 4°C',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '111 min'
+    },
+    {
+        id: 86,
+        title: 'Violet Evergarden',
+        description: "Une ex-soldate apprend à comprendre les émotions humaines.",
+        imageUrl: violetEvergardenImg,
+        year: 2018,
+        type: 'Série',
+        episodes: 13,
+        status: 'Terminé',
+        genres: ['Drama'],
+        themes: ['Lettre'],
+        studio: 'Kyoto Animation',
+        origin: 'Light Novel',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 87,
+        title: '86 Eighty-Six',
+        description: "Des soldats sacrifiés pilotent des drones dans une guerre futuriste.",
+        imageUrl: eightySixImg,
+        year: 2021,
+        type: 'Série',
+        episodes: 23,
+        status: 'Terminé',
+        genres: ['Sci-Fi'],
+        themes: ['Guerre'],
+        studio: 'A-1 Pictures',
+        origin: 'Light Novel',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 88,
+        title: 'To Your Eternity',
+        description: "Une entité immortelle apprend ce que signifie être humain.",
+        imageUrl: toYourEternityImg,
+        year: 2021,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Fantasy'],
+        themes: ['Immortalité'],
+        studio: 'Brain’s Base',
+        origin: 'Manga',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 91,
+        title: 'Dorohedoro',
+        description: "Caiman cherche celui qui lui a donné une tête de lézard.",
+        imageUrl: dorohedoroImg,
+        year: 2020,
+        type: 'Série',
+        episodes: 12,
+        status: 'En cours',
+        genres: ['Fantasy'],
+        themes: ['Magie'],
+        studio: 'MAPPA',
+        origin: 'Manga',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 92,
+        title: 'Ajin',
+        description: "Des immortels recherchés sont traqués par le gouvernement.",
+        imageUrl: ajinImg,
+        year: 2016,
+        type: 'Série',
+        episodes: 26,
+        status: 'Terminé',
+        genres: ['Action'],
+        themes: ['Immortalité'],
+        studio: 'Polygon Pictures',
+        origin: 'Manga',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 93,
+        title: 'Devilman Crybaby',
+        description: "Akira devient Devilman pour combattre les démons.",
+        imageUrl: devilmanCrybabyImg,
+        year: 2018,
+        type: 'Série',
+        episodes: 10,
+        status: 'Terminé',
+        genres: ['Horreur'],
+        themes: ['Apocalypse'],
+        studio: 'Science SARU',
+        origin: 'Manga',
+        ageRating: '18+',
+        durationPerEpisode: '25 min'
+    },
+    {
+        id: 94,
+        title: 'High School of the Dead',
+        description: "Un groupe de lycéens lutte pour survivre à une invasion zombie.",
+        imageUrl: highSchoolOfTheDeadImg,
+        year: 2010,
+        type: 'Série',
+        episodes: 12,
+        status: 'Terminé',
+        genres: ['Horreur'],
+        themes: ['Zombies'],
+        studio: 'Madhouse',
+        origin: 'Manga',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 95,
+        title: 'Terror in Resonance',
+        description: "Deux adolescents terroristes défient la police avec des énigmes.",
+        imageUrl: terrorInResonanceImg,
+        year: 2014,
+        type: 'Série',
+        episodes: 11,
+        status: 'Terminé',
+        genres: ['Thriller'],
+        themes: ['Terrorisme'],
+        studio: 'MAPPA',
+        origin: 'Original',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 97,
+        title: 'Golden Kamuy',
+        description: "Un vétéran et une jeune Aïnou recherchent un trésor perdu.",
+        imageUrl: goldenKamuyImg,
+        year: 2018,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Aventure'],
+        themes: ['Survie'],
+        studio: 'Geno Studio / Brain’s Base',
+        origin: 'Manga',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 98,
+        title: 'Moriarty the Patriot',
+        description: "L’ennemi de Sherlock Holmes devient un criminel idéaliste.",
+        imageUrl: moriartyPatriotImg,
+        year: 2020,
+        type: 'Série',
+        episodes: 24,
+        status: 'Terminé',
+        genres: ['Thriller'],
+        themes: ['Crime'],
+        studio: 'Production I.G',
+        origin: 'Manga',
+        ageRating: '14+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 99,
+        title: 'Megalo Box',
+        description: "Un boxeur clandestin grimpe les rangs dans un sport futuriste.",
+        imageUrl: megaloBoxImg,
+        year: 2018,
+        type: 'Série',
+        episodes: 26,
+        status: 'Terminé',
+        genres: ['Sport'],
+        themes: ['Boxe'],
+        studio: 'TMS Entertainment',
+        origin: 'Original',
+        ageRating: '13+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 100,
+        title: 'Haibane Renmei',
+        description: "Des êtres ailés vivent dans une ville mystérieuse entourée de murs.",
+        imageUrl: haibaneRenmeiImg,
+        year: 2002,
+        type: 'Série',
+        episodes: 13,
+        status: 'Terminé',
+        genres: ['Fantasy'],
+        themes: ['Purification'],
+        studio: 'Radix',
+        origin: 'Original',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 101,
+        title: 'Fate/Zero',
+        description: "Sept mages invoquent des héros légendaires pour une guerre brutale.",
+        imageUrl: fateZeroImg,
+        year: 2011,
+        type: 'Série',
+        episodes: 25,
+        status: 'Terminé',
+        genres: ['Fantasy'],
+        themes: ['Guerre Sainte'],
+        studio: 'ufotable',
+        origin: 'Light Novel',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 102,
+        title: 'Fate/Stay Night Unlimited Blade Works',
+        description: "Shirou et Rin se battent dans une guerre sacrée moderne.",
+        imageUrl: ubwImg,
+        year: 2014,
+        type: 'Série',
+        episodes: 25,
+        status: 'Terminé',
+        genres: ['Action'],
+        themes: ['Magie'],
+        studio: 'ufotable',
+        origin: 'Visual Novel',
+        ageRating: '15+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 103,
+        title: 'Gantz',
+        description: "Des morts ressuscitent pour participer à des missions mortelles.",
+        imageUrl: gantzImg,
+        year: 2004,
+        type: 'Série',
+        episodes: 26,
+        status: 'Terminé',
+        genres: ['Horreur'],
+        themes: ['Extraterrestres'],
+        studio: 'Gonzo',
+        origin: 'Manga',
+        ageRating: '18+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 104,
+        title: 'Black Lagoon',
+        description: "Des mercenaires opèrent dans les eaux dangereuses de l’Asie du Sud-Est.",
+        imageUrl: blackLagoonImg,
+        year: 2006,
+        type: 'Série',
+        episodes: 24,
+        status: 'Terminé',
+        genres: ['Action'],
+        themes: ['Crime'],
+        studio: 'Madhouse',
+        origin: 'Manga',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 105,
+        title: 'Baki',
+        description: "Le jeune Baki affronte des combattants surhumains pour devenir le plus fort.",
+        imageUrl: bakiImg,
+        year: 2018,
+        type: 'Série',
+        episodes: null,
+        status: 'En cours',
+        genres: ['Combat'],
+        themes: ['Arts martiaux'],
+        studio: 'TMS',
+        origin: 'Manga',
+        ageRating: '16+',
+        durationPerEpisode: '24 min'
+    },
+
+    {
+        id: 107,
+        title: 'Yuri!!! on Ice',
+        description: "Un patineur artistique cherche à retrouver confiance.",
+        imageUrl: yuriOnIceImg,
+        year: 2016,
+        type: 'Série',
+        episodes: 12,
+        status: 'Terminé',
+        genres: ['Sport'],
+        themes: ['Patinage'],
+        studio: 'MAPPA',
+        origin: 'Original',
+        ageRating: '12+',
+        durationPerEpisode: '24 min'
+    },
+    {
+        id: 108,
+        title: 'Free!',
+        description: "Des lycéens passionnés de natation reforment leur club.",
+        imageUrl: freeImg,
+        year: 2013,
+        type: 'Série',
+        episodes: 37,
+        status: 'Terminé',
+        genres: ['Sport'],
+        themes: ['Natation'],
+        studio: 'Kyoto Animation',
+        origin: 'Novel',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+
+
+    {
+        id: 110,
+        title: 'Ping Pong the Animation',
+        description: "Deux amis s’affrontent pour devenir champions de ping-pong.",
+        imageUrl: pingPongAnimationImg,
+        year: 2014,
+        type: 'Série',
+        episodes: 11,
+        status: 'Terminé',
+        genres: ['Sport'],
+        themes: ['Rivalité'],
+        studio: 'Tatsunoko Production',
+        origin: 'Manga',
+        ageRating: '10+',
+        durationPerEpisode: '24 min'
+    },
+
+
 ]

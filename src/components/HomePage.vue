@@ -9,7 +9,7 @@
           class="btn primary"
           @click="$router.push('/catalog')"
         >
-          Entrer dans l'application
+          Catalogue
         </button>
 
         <button
@@ -17,6 +17,13 @@
           @click="$router.push('/my-list')"
         >
           Ma liste
+        </button>
+
+        <button
+          class="btn quiz"
+          @click="$router.push('/quiz')"
+        >
+          Quiz
         </button>
       </div>
     </div>
@@ -85,7 +92,6 @@
   color: #111827;
   box-shadow: 0 10px 30px rgba(249, 168, 212, 0.45);
 }
-
 .btn.primary:hover {
   transform: translateY(-3px);
   box-shadow: 0 14px 40px rgba(249, 168, 212, 0.55);
@@ -95,10 +101,19 @@
   background: linear-gradient(135deg, #6366f1, #a855f7);
   color: #eef2ff;
 }
-
 .btn.secondary:hover {
   transform: translateY(-3px);
   box-shadow: 0 14px 40px rgba(99, 102, 241, 0.35);
+}
+
+/* Nouveau bouton quiz */
+.btn.quiz {
+  background: linear-gradient(135deg, #22c55e, #4ade80);
+  color: #0f172a;
+}
+.btn.quiz:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px rgba(34, 197, 94, 0.35);
 }
 
 .cta {
