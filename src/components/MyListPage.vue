@@ -13,6 +13,9 @@
           <div>
             <div class="title">{{ anime.title }}</div>
             <div class="note">Note : {{ anime.note }} / 10</div>
+            <div v-if="anime.comment" class="comment">
+              {{ anime.comment }}
+            </div>
           </div>
         </div>
 
@@ -46,6 +49,11 @@ function goToDetail(id: number) {
 h1 {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #f9a8d4, #c4b5fd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .empty {
@@ -62,13 +70,14 @@ h1 {
 }
 
 li {
-  background: #020617;
+  background: radial-gradient(circle at top, #1f2937, #020617);
   border-radius: 12px;
   padding: 10px 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 1px solid rgba(244, 114, 182, 0.4);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.75);
 }
 
 .left {
@@ -91,6 +100,13 @@ li {
 .note {
   font-size: 0.85rem;
   color: #fb7185;
+}
+
+.comment {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: #e5e7eb;
+  opacity: 0.9;
 }
 
 .actions {

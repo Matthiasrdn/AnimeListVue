@@ -7,18 +7,25 @@ export interface MyListItem {
     title: string
     imageUrl: string
     note: number
+    comment: string
 }
 
 const catalog = ref<Anime[]>(animeCatalog)
 const myList = ref<MyListItem[]>([])
 
-function addToListWithNote(anime: Anime, note: number) {
-    if (!myList.value.some(a => a.id === anime.id)) {
+function addToListWithNote(anime: Anime, note: number, comment: string) {
+    const existing = myList.value.find(a => a.id === anime.id)
+
+    if (existing) {
+        existing.note = note
+        existing.comment = comment
+    } else {
         myList.value.push({
             id: anime.id,
             title: anime.title,
             imageUrl: anime.imageUrl,
-            note
+            note,
+            comment
         })
     }
 }
